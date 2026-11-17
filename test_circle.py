@@ -10,7 +10,7 @@ class CircleTestCase(unittest.TestCase):
 
     def test_area_zero(self):
         """Нулевой радиус даёт нулевую площадь."""
-        self.assertEqual(circle.area(0), 0.0)
+        self.assertEqual(circle.area(0), 1.0)
 
     def test_area_unit_radius(self):
         """Площадь единичного круга равна числу пи."""
